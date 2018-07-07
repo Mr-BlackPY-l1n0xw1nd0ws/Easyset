@@ -1,0 +1,44 @@
+
+#!C\Python34
+
+_author_ = 'Mr.BlackPY'
+
+import os
+os.system('apt install git')
+os.system('apt install php')
+os.system('apt install python2')
+os.system('apt install python')
+os.system('apt install python3')
+os.system('clear')
+print("1 = Social Fish")
+print("2 = Fsociety ")
+print("3 = Mr.Bat")
+print("4 = ReconDog")
+print("5 = Hammer")
+print("6 = Striker")
+print("7 = Hasher")
+print("8 = RED_WAWK")
+
+num = input("Please Select a Number: ")
+print("tnx!")
+if num == "1" :
+      os.system('git clone https://github.com/UndeadSec/SocialFish.git')
+elif num == "2":
+      os.system('git clone https://github.com/Manisso/fsociety.git')
+elif num == "3" :
+      os.system('git clone https://github.com/Bhai4You/Mr.Bat.git')
+elif num == "4" :
+      os.system('git clone https://github.com/UltimateHackers/ReconDog.git')
+elif num == "5" :
+      os.system('git clone https://github.com/cyweb/hammer.git')
+elif num == "6" :
+      os.system('git clone https://github.com/UltimateHackers/Striker.git')
+elif num == "7" :
+      os.system('git clone https://github.com/Ciku370/hasher.git')
+elif num == "8" :
+      os.system('git clone https://github.com/Tuhinshubhra/RED/HAWK.git')
+
+
+
+
+
